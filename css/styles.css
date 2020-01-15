@@ -1,0 +1,22 @@
+.size {
+    margin: 0;
+    background-color: #e84545;
+    color:#2b2e4a ;
+    text-align: center;
+    width: 500px;
+    border-radius: 2rem;
+}
+
+
+#password {
+    background-color: #53354a;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+
+#formMain {
+    display: flex;
+}
