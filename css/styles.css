@@ -1,34 +1,71 @@
 body {
     display: flex;
+    font-family: 'Baloo Bhai', cursive;
 }
 .size {
     margin: 0;
     background-color: #e84545;
     color:#2b2e4a ;
     text-align: center;
+    align-items: center;
     width: 500px;
     border-radius: 2rem;
+    display: flex;
     flex-direction: column;
+    border: 2px solid #2b2e4a;
 }
 
 
 #password {
     margin: 0;
-    background-color: #53354a;
-    width: 500px;
+    background-color: #903749;
+    width: 300px;
     height: 50px;
+    display: flex;
     text-align: center;
     align-items: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    border: 2px solid #2b2e4a;
+    color: #e84545;
 }
 
 
 #formMain {
-    display:grid;
+    font-size: 20px;
+    display:flex;
     flex-direction: column;
     font-weight: bold;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 25px;
+}
+
+#charNumb {
+    width: 50px;
+    display: flex;
+    
+
+}
+label {
+    padding: 15px;
+}
+
+#btn {
+    margin: 15px;
+    height: 25px;
+    font-weight: bold;
+    color: #e84545;
+    background-color: #2b2e4a;
+    border: 2px solid #2b2e4a;
+}
+#level {
+    margin-top: -15px;
+    padding: 15px;
+}
+
+#btn:hover {
+    color: #2b2e4a;
+    background-color: #e84545;
 }
 
