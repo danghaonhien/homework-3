@@ -1,6 +1,10 @@
 body {
     display: flex;
     font-family: 'Baloo Bhai', cursive;
+    margin: 25px 0 0 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .size {
     margin: 0;
