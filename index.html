@@ -8,21 +8,29 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <!-- Add Main Box -->
     <div class="size">
+        <!-- Add content -->
 <header class="header">
     <h1 class="title">Password Generator</h1>
+
+    <!-- Password Box -->
     <h2 id="password">Password</h2>
-    <form action="" id=formMain>
+
+    <!-- Add Form -->
+    <form action="" id="formMain">
 <label for="">Level of difficulty!</label>
-<input type="range" class="level">
-<input type="number" class="CharNumb">
+<input type="range" min="1" max="25" value="8" id="level">
+<input type="number"  min="8" max="25" value="" id="CharNumb">
 <label for="">Capitalized?</label>
 <input type="checkbox" class="checkBox">
 <label for="">Number?</label>
 <input type="checkbox" class="checkBox">
 <label for="">Special Character?</label>
 <input type="checkbox" class="checkBox">
-<button type="submit">Generate</button>
+
+<!-- Add Button -->
+<button type="submit" id="btn">Generate</button>
     </form>
 </div>
 
