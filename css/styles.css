@@ -6,6 +6,13 @@ body {
     text-align: center;
     justify-content: center;
 }
+h2 {
+    margin: 0;
+}
+.title {
+    text-align: center;
+    align-items: center;
+}
 .size {
     margin: 0;
     background-color: #e84545;
@@ -23,9 +30,9 @@ body {
 #password {
     margin: 0;
     background-color: #903749;
-    width: 300px;
+    width: 325.96px;
     height: 50px;
-    display: flex;
+    
     text-align: center;
     align-items: center;
     border-radius: 1rem;
@@ -48,21 +55,47 @@ body {
 #charNumb {
     width: 50px;
     display: flex;
-    
+    background-color: #903749;
+    border: 2px solid #2b2e4a;
+    color: #e84545;
+    font-weight: bold;
 
 }
 label {
     padding: 15px;
 }
-
+.button {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
 #btn {
-    margin: 15px;
+    margin-top: 15px;
     height: 25px;
     font-weight: bold;
     color: #e84545;
     background-color: #2b2e4a;
     border: 2px solid #2b2e4a;
+    border-radius: 1rem;
+
 }
+#copyClipboard {
+    margin-top: 15px;
+    height: 25px;
+    font-weight: bold;
+    color: #e84545;
+    background-color: #2b2e4a;
+    border: 2px solid #2b2e4a;
+   border-radius: 1rem;
+
+}
+#copyClipboard:hover {
+    color: #2b2e4a;
+    background-color: #e84545;
+}
+
 #level {
     margin-top: -15px;
     padding: 15px;
