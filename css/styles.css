@@ -20,7 +20,7 @@ h2 {
     color:#2b2e4a ;
     text-align: center;
     align-items: center;
-    width: 400px;
+    width: 360px;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ h2 {
 #password {
     margin: 0;
     background-color: #903749;
-    width: 379.31px;
+    width: 320px;
     height: 70px;
     /* add word break for long password */
     word-break: break-all;
