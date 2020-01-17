@@ -21,8 +21,9 @@
     <!-- Add Form -->
     <form action="" id="formMain">
 <label for="">Level of difficulty!</label>
-<input type="range" min="1" max="30" value="1" id="level">
-<input type="number"  min="8" max="30" value="8" id="charNumb">
+<!-- set value min become 1 -->
+<input type="range" min="1" max="40" value="1" id="level">
+<input type="number"  min="8" max="40" value="8" id="charNumb">
 <label for="needUpperCase">Capitalized?</label>
 <input type="checkbox" class="checkBox" id="needUpperCase">
 <label  for="needNumber">Number?</label >
@@ -32,8 +33,9 @@
 
 <!-- Add Button -->
 <div class="button">
-<button type="submit" id="btn">Generate Password</button>
-<button type="submit" id="copyClipboard">Copy to Clipboard</button>
+    <button type="reset" id="copyClipboard">Copy to Clipboard</button>
+    <button type="submit" id="btn">Generate Password</button>
+
 </div>
     </form>
 </div>
