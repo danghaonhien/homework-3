@@ -75,12 +75,13 @@ copy.preventDefault();
 
 
 var copyText= document.querySelector("#password");
-copyText.value = $showPassword.innerText;
 
-    document.execCommand("Copy") ;
+copyText.value = $showPassword.innerText;
+// copyText.select();
+    document.execCommand("copy") ;
 
 alert("Copied the text: " + copyText.value);
-console.log(copyPassword);
+
 })
   
 
