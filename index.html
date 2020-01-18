@@ -15,11 +15,19 @@
 <header class="header">
     <h1 class="title">Password Generator</h1>
 
-    <!-- Password Box -->
-    <h2 id="password">Password</h2>
 
     <!-- Add Form -->
     <form action="" id="formMain">
+       <div id = "passwordForm">
+    <!-- Password Box -->
+    <p id="password"></p>
+        <!-- Add Button -->
+<div class="button">
+    <button type="submit" id="btn">Generate Password</button>
+    <button  id="copy">Copy to Clipboard</button>
+ 
+</div> 
+</div>
 <label for="">Level of difficulty!</label>
 <!-- set value min become 1 -->
 <input type="range" min="1" max="40" value="1" id="level">
@@ -31,12 +39,7 @@
 <label for="needSpecialChar">Special Character?</label>
 <input type="checkbox" class="checkBox" id="needSpecialChar">
 
-<!-- Add Button -->
-<div class="button">
-    <button type="reset" id="copyClipboard">Copy to Clipboard</button>
-    <button type="submit" id="btn">Generate Password</button>
 
-</div>
     </form>
 </div>
 

@@ -20,7 +20,7 @@ h2 {
     color:#2b2e4a ;
     text-align: center;
     align-items: center;
-    width: 360px;
+    width: 500px;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,8 @@ h2 {
 #password {
     margin: 0;
     background-color: #903749;
-    width: 320px;
-    height: 70px;
+    width: 379.31px;
+    height: 90px;
     /* add word break for long password */
     word-break: break-all;
     text-align: center;
@@ -85,7 +85,7 @@ label {
 
 }
 
-#copyClipboard {
+#copy {
     margin-top: 15px;
     height: 25px;
     font-weight: bold;
@@ -95,7 +95,7 @@ label {
    border-radius: 1rem;
 
 }
-#copyClipboard:hover {
+#copy:hover {
     color: #2b2e4a;
     background-color: #e84545;
 }

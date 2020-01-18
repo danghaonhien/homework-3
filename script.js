@@ -54,7 +54,7 @@ function arrayAZ(A,Z) {
 
     //display passwords
     let $showPassword = document.querySelector("#password");
-//Add function to formMain
+//Add function to formMain / eventlistener
 $formEl.addEventListener('submit', e => {
     e.preventDefault();
     let characterNumber = $charNumbEl.value;
@@ -67,7 +67,24 @@ $formEl.addEventListener('submit', e => {
 
     //display passwords in Html
     $showPassword.innerText = password;
+
 })
+let copyPassword = document.querySelector("#copy");
+copyPassword.addEventListener("click", copy => {
+copy.preventDefault();
+
+
+var copyText= document.querySelector("#password");
+copyText.value = $showPassword.innerText;
+
+    document.execCommand("Copy") ;
+
+alert("Copied the text: " + copyText.value);
+console.log(copyPassword);
+})
+  
+
+   
 
 //Add function for password
 function passwordGenerator(characterNumber, needUpperCaseEl, needNumberEl, needSpecialCharEl) {
